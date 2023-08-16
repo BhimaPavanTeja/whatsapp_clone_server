@@ -12,7 +12,10 @@ const port = process.env.PORT || 3001;
 require("./db/connection");
 
 // *cors
-const allowedOrigins = ["http://localhost:3000"];
+const allowedOrigins = [
+  "http://localhost:3000",
+  "https://whatsapp-clone-ted.web.app",
+];
 
 const corsOptions = {
   origin: (origin, callback) => {
