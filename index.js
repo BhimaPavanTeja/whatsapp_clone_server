@@ -19,6 +19,7 @@ require("./db/connection");
 // *cors
 const allowedOrigins = [
   "http://localhost:3000",
+  "http://localhost:3003",
   "https://whatsapp-clone-ted.web.app",
 ];
 
